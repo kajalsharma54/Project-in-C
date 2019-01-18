@@ -324,7 +324,7 @@ void DisplayResult(char name[20],int marks)
     printf("\n\n\t\tEasy : %d",marks);
     printf("\n\t\tMedium : %d",marks);
     printf("\n\t\tHard : %d",marks);
-    printf("\n\n\tYour Final Total Score : %.2f out of %.2f",marks,totalMarks);
+    printf("\n\n\tYour Final Total Score : %d out of %d",marks,totalMarks);
     puts("\n\nNEXT PLAY?(Y/N)");
     if (toupper(getch())=='Y')
         StartQuiz();
