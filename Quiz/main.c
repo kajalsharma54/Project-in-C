@@ -4,8 +4,8 @@
 
 void menuController();
 void StartQuiz();
-void runQuiz(char name);
-void DisplayResult(char x , int y);
+void runQuiz(char name[20]);
+void DisplayResult(char name[20] , int marks);
 
 
 int main()
@@ -82,7 +82,7 @@ void StartQuiz()
 
 }
 
-void runQuiz(char name)
+void runQuiz(char name[20])
 {
 int j,b[10],d=0;
 printf("\t\t\t\t|------------------------|");
@@ -313,7 +313,7 @@ DisplayResult(name,d);
 
 
 
-void DisplayResult(char name,int marks)
+void DisplayResult(char name[20],int marks)
 {
 
 
